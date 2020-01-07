@@ -9,4 +9,6 @@ import java.util.Optional;
 @Repository
 public interface IUserRepository extends CrudRepository<User, Long> {
     Optional<User> findByUsername(String username);
+
+    //professional
 }
